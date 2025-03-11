@@ -1,26 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ToggleButton?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="emails.demo1.controladorColores">
    <children>
-      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="119.0" layoutY="35.0" prefHeight="83.0" prefWidth="395.0" text="Seleccionar Color del Jugador" textFill="#2674bc">
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="103.0" layoutY="34.0" prefHeight="83.0" prefWidth="395.0" text="Seleccionar Color del Jugador" textFill="#2674bc">
          <font>
             <Font size="25.0" />
          </font>
       </Label>
-      <Button layoutX="446.0" layoutY="312.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="113.0" text="Elegir " />
-      <Button layoutX="41.0" layoutY="319.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="101.0" text="Cancelar" />
-      <Button layoutX="116.0" layoutY="128.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="71.0" text="Button" />
-      <Button layoutX="212.0" layoutY="127.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="62.0" text="Button" />
-      <Button layoutX="300.0" layoutY="131.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="62.0" text="Button" />
-      <Button layoutX="386.0" layoutY="131.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="62.0" text="Button" />
-      <Button layoutX="152.0" layoutY="194.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="71.0" />
-      <Button layoutX="243.0" layoutY="191.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="71.0" />
-      <Button layoutX="338.0" layoutY="194.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="62.0" />
+      <ToggleButton fx:id="BtnSiguiente" layoutX="442.0" layoutY="319.0" mnemonicParsing="false" onAction="#SiguienteF" prefHeight="38.0" prefWidth="113.0" text="Siguiente" />
+      <ToggleButton layoutX="47.0" layoutY="319.0" mnemonicParsing="false" onAction="#CancelarB" prefHeight="38.0" prefWidth="101.0" text="Cancelar" />
+      <ToggleButton fx:id="BtnRojo" layoutX="155.0" layoutY="132.0" mnemonicParsing="false" onAction="#seleccionColorRojo" prefHeight="52.0" prefWidth="86.0" style="-fx-background-color: red;" />
+      <ToggleButton fx:id="BtnAzul" layoutX="256.0" layoutY="132.0" mnemonicParsing="false" onAction="#seleccionColorAzul" prefHeight="52.0" prefWidth="86.0" style="-fx-background-color: lightblue;" />
+      <ToggleButton fx:id="BtnVerde" layoutX="359.0" layoutY="132.0" mnemonicParsing="false" onAction="#seleccionColorVerde" prefHeight="52.0" prefWidth="86.0" style="-fx-background-color: green;" />
+      <ToggleButton fx:id="BtnAmarillo" layoutX="105.0" layoutY="210.0" mnemonicParsing="false" onAction="#seleccionColorAmarillo" prefHeight="52.0" prefWidth="86.0" style="-fx-background-color: yellow;" />
+      <ToggleButton fx:id="BtnMorado" layoutX="213.0" layoutY="210.0" mnemonicParsing="false" onAction="#seleccionColorMorado" prefHeight="52.0" prefWidth="86.0" style="-fx-background-color: purple;" />
+      <ToggleButton fx:id="BtnGris" layoutX="316.0" layoutY="210.0" mnemonicParsing="false" onAction="#seleccionColorGris" prefHeight="52.0" prefWidth="86.0" style="-fx-background-color: gray;" />
+      <ToggleButton fx:id="BtnNegro" layoutX="422.0" layoutY="210.0" mnemonicParsing="false" onAction="#seleccionColorNegro" prefHeight="52.0" prefWidth="86.0" style="-fx-background-color: black;" />
    </children>
 </AnchorPane>
