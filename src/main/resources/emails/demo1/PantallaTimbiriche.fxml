@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="490.0" prefWidth="625.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="email.demo.controladores.controladorLogin">
+   <children>
+      <Button fx:id="Btn_UnirseP" layoutX="217.0" layoutY="168.0" mnemonicParsing="false" onAction="#UnirsePartida" prefHeight="41.0" prefWidth="171.0" text="Unirse a Partida" />
+      <Button fx:id="Btn_salir" layoutX="274.0" layoutY="386.0" mnemonicParsing="false" onAction="#Btn_salir" prefHeight="41.0" prefWidth="77.0" text="Salir" />
+      <ImageView fitHeight="85.0" fitWidth="99.0" layoutX="469.0" layoutY="41.0" pickOnBounds="true" preserveRatio="true" />
+      <BorderPane prefHeight="113.0" prefWidth="600.0">
+         <center>
+            <Label alignment="CENTER" prefHeight="66.0" prefWidth="265.0" text="TIMBIRICHE" textAlignment="CENTER" textFill="#1267a8" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="System Italic" size="35.0" />
+               </font>
+            </Label>
+         </center>
+      </BorderPane>
+      <Button fx:id="Btn_CrearP" layoutX="217.0" layoutY="244.0" mnemonicParsing="false" onAction="#AbrirCrearP" prefHeight="48.0" prefWidth="171.0" text="Crear Partiida" />
+   </children>
+</AnchorPane>
