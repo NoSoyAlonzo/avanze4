@@ -1,0 +1,9 @@
+
+.linea {
+    -fx-stroke: black;
+    -fx-stroke-width: 2;
+}
+
+.punto {
+    -fx-fill: black;
+}
