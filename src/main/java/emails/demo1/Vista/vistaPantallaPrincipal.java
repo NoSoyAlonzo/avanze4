@@ -1,4 +1,4 @@
-package emails.demo1;
+package emails.demo1.Vista;
 
 import javafx.application.Platform;
 import javafx.event.ActionEvent;
@@ -6,12 +6,11 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 
-public class controladorPantallaP {
+public class vistaPantallaPrincipal {
 
     @FXML
     private Button Btn_CrearP;

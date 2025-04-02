@@ -1,9 +1,5 @@
+background{
 
-.linea {
-    -fx-stroke: black;
-    -fx-stroke-width: 2;
+    background-image: url("/css/imagenes/wihtB.jpg");
 }
 
-.punto {
-    -fx-fill: black;
-}

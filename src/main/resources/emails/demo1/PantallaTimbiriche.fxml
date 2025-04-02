@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="490.0" prefWidth="625.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="emails.demo1.controladorPantallaP">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="490.0" prefWidth="625.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="emails.demo1.Vista.vistaPantallaPrincipal">
    <children>
       <Button fx:id="Btn_UnirseP" layoutX="217.0" layoutY="168.0" mnemonicParsing="false" onAction="#UnirsePartida" prefHeight="41.0" prefWidth="171.0" text="Unirse a Partida" />
       <Button fx:id="Btn_salir" layoutX="274.0" layoutY="386.0" mnemonicParsing="false" onAction="#Btn_salir" prefHeight="41.0" prefWidth="77.0" text="Salir" />

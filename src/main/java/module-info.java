@@ -13,4 +13,8 @@ module emails.demo1 {
 
     opens emails.demo1 to javafx.fxml;
     exports emails.demo1;
+    exports emails.demo1.Controlador;
+    opens emails.demo1.Controlador to javafx.fxml;
+    exports emails.demo1.Modelo;
+    opens emails.demo1.Modelo to javafx.fxml;
 }

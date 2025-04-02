@@ -145,5 +145,16 @@
                 </executions>
             </plugin>
         </plugins>
+        <resources>
+            <!-- Carpeta resources por defecto -->
+            <resource>
+                <directory>src/main/resources</directory>
+            </resource>
+            <!-- Carpeta adicional para los FXML -->
+            <resource>
+                <directory>src/main/java/emails/demo1/recursos</directory>
+            </resource>
+        </resources>
+
     </build>
 </project>

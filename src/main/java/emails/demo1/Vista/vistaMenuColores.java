@@ -1,4 +1,4 @@
-package emails.demo1;
+package emails.demo1.Vista;
 import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -9,7 +9,7 @@ import javafx.scene.control.ToggleButton;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 
-public class controladorColores {
+public class vistaMenuColores {
 
     @FXML
     private ToggleButton BtnAmarillo;
@@ -46,7 +46,7 @@ public class controladorColores {
 
         try {
 
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("/emails/demo1/Tablero.fxml"));
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/emails/demo1/LobbyJ.fxml"));
             Parent root = loader.load();
             Scene escena = new Scene(root);
             Stage stage = new Stage();
